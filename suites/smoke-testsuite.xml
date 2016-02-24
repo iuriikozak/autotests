@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+    <suite name="Smoke">
+        <test name="Test_001_Login">
+            <classes>
+                <class name="Smoke.Test_001_Login"></class>
+            </classes>
+        </test>
+        <test name="Test_002_SearchTemplate">
+            <classes>
+                <class name="Smoke.Test_002_SearchTemplate"></class>
+            </classes>
+        </test>
+        <test name="Test_003_BuyPayPal">
+            <classes>
+                <class name="Smoke.Test_003_BuyPayPal"></class>
+            </classes>
+        </test>
+        <test name="Test_004_PayByCard">
+            <classes>
+                <class name="Smoke.Test_004_PayByCard"></class>
+            </classes>
+        </test>
+        <test name="Test_005_FreeTemplate">
+            <classes>
+                <class name="Smoke.Test_005_FreeTemplate"></class>
+            </classes>
+        </test>
+        <test name="Test_006_MergeCart">
+            <classes>
+                <class name="Smoke.Test_006_MergeCart"></class>
+            </classes>
+        </test>
+        <test name="Test_007_DeleteFromCart">
+            <classes>
+                <class name="Smoke.Test_007_DeleteFromCart"></class>
+            </classes>
+        </test>
+        <test name="Test_008_LiveChat">
+            <classes>
+                <class name="Smoke.Test_008_LiveChat"></class>
+            </classes>
+        </test>
+        <test name="Test_009_LazyLoad">
+            <classes>
+                <class name="Smoke.Test_009_LazyLoad"></class>
+            </classes>
+        </test>
+        <test name="Test_010_InvalidEmail">
+            <classes>
+                <class name="Smoke.Test_010_InvalidEmail"></class>
+            </classes>
+        </test>
+    </suite>
