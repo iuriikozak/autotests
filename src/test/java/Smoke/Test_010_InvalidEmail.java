@@ -9,7 +9,7 @@ import service.*;
 
 public class Test_010_InvalidEmail extends DefaultTestCase {
     @Test(dataProvider = "InvalidEmail", dataProviderClass = DataProviders.class)
-    public void test(String email) {
+    public void test_010(String email) {
         //Navigate to index page.
         Log.info("Navigate to index page");
         Urls.getUrl("", driver);
