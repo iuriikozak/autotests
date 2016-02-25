@@ -1,6 +1,7 @@
 package Default;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterSuite;
@@ -26,12 +27,12 @@ public class DefaultTestCase {
         Log.info("Start test");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 
-        URL hostURL = new URL("http://192.168.51.80:4444/wd/hub");
-        driver = new RemoteWebDriver(hostURL, capabilities);
-        //driver = new FirefoxDriver(capabilities);
+        //URL hostURL = new URL("http://192.168.51.80:4444/wd/hub");
+        //driver = new RemoteWebDriver(hostURL, capabilities);
+        driver = new FirefoxDriver(capabilities);
 
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(200, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 
         driver.manage().window().maximize();
     }

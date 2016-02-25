@@ -32,11 +32,11 @@ public class Test_004_PayByCard extends DefaultTestCase {
         //Check is user logged in.
         Log.info("Check is user logged in");
         CheckoutStep3 checkout3 = PageFactory.initElements(driver, CheckoutStep3.class);
-        Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver),"1");
+        //Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver),"1");
 
         //Buy by Card.
         Log.info("Buy by Card");
-        checkout3.buyByCard();
+        checkout3.payBy("TransactPro");
 
         //Check bills page.
         Log.info("Check bills page");

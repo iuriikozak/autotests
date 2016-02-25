@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageobjects.*;
 import service.*;
 
-public class Test_006_MergeCart extends Test_001_Login {
+public class Test_006_MergeCart extends Test_001_LogIn {
     @Test()
     public void test_006() {
         //Clear shopping cart.

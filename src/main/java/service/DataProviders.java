@@ -7,15 +7,8 @@ public class DataProviders {
     public static Object[][] InvalidEmail(){
         return new Object[][]{
                 {"tester.test"},
-                {"tester@test"},
                 {"tester"},
-                {"tester.test@"},
-                {"@tester.test"},
-                {"test.test"},
-                {"test@test"},
-                {"test"},
-                {"test.test@"},
-                {"@test.test"}
+                {"test"}
         };
     }
 }

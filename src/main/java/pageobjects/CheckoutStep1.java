@@ -28,7 +28,7 @@ public class CheckoutStep1 {
     public WebElement passwordField;
 
     @FindBy(id = "checkout-signin-form-submit")
-    public WebElement signIn;
+    public WebElement signInButton;
 
     @FindBy(xpath = ".//*[@class='popover-content']")
     public WebElement emailErrorMessage;
@@ -62,8 +62,8 @@ public class CheckoutStep1 {
     }
 
     public void clickOnSignInButton(){
-        Waiters.waitForClickAble(signIn, driver);
-        signIn.click();
+        Waiters.waitForClickAble(signInButton, driver);
+        signInButton.click();
     }
 
     public void continueAsAGuestUser() {

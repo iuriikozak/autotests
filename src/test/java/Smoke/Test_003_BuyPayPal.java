@@ -35,13 +35,13 @@ public class Test_003_BuyPayPal extends DefaultTestCase {
         checkout2.register(Constants.FULL_NAME, RandomEmail.randomEmail(), Constants.ADDRESS, Constants.CITY, Constants.ZIP_POSTAL_CODE, Constants.BILLING_PHONE_NUMBER);
 
         //Check is user logged in.
-        Log.info("Check is user logged in");
+        //Log.info("Check is user logged in");
         CheckoutStep3 checkout3 = PageFactory.initElements(driver, CheckoutStep3.class);
-        Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver),"1");
+        //Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver),"1");
 
         //Buy by PayPal.
         Log.info("Buy by PayPal");
-        checkout3.buyByPayPal();//топорно
+        checkout3.payBy("PayPal");
 
         //Check bills page.
         Log.info("Check bills page");

@@ -15,6 +15,9 @@ public class IndexPage {
     @FindBy(id = "signin-link")
     public WebElement signInLink;
 
+    @FindBy(id = "signout-link")
+    public WebElement signOutLink;
+
     @FindBy(id = "signin-form-email")
     public WebElement emailField;
 
@@ -51,6 +54,11 @@ public class IndexPage {
     public void clickOnSignIn(){
         Waiters.waitForClickAble(signInLink, driver);
         signInLink.click();
+    }
+
+    public void clickOnSignOut(){
+        Waiters.waitForClickAble(signOutLink, driver);
+        signOutLink.click();
     }
 
     public void fillInEmail(String email){

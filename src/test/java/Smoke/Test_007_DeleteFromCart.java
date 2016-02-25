@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageobjects.*;
 import service.*;
 
-public class Test_007_DeleteFromCart extends Test_001_Login {
+public class Test_007_DeleteFromCart extends Test_001_LogIn {
     @Test()
     public void test_007() {
         //Clear shopping cart.
@@ -30,7 +30,7 @@ public class Test_007_DeleteFromCart extends Test_001_Login {
         Log.info("Login");
         CheckoutStep1 checkoutStep1 = PageFactory.initElements(driver, CheckoutStep1.class);
         checkoutStep1.loginAsAReturningUser(Constants.EMAIL_ADDRESS, Constants.PASSWORD);
-        Waiters.waitForCookie("wac", driver);
+        //Waiters.waitForCookie("wac", driver);
 
         //Sopping cart.
         Log.info("Sopping cart");

@@ -3,7 +3,7 @@
     <suite name="Smoke">
         <test name="Test_001_Login">
             <classes>
-                <class name="Smoke.Test_001_Login"></class>
+                <class name="Smoke.Test_001_LogIn"></class>
             </classes>
         </test>
         <test name="Test_002_SearchTemplate">
