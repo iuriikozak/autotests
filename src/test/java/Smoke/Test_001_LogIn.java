@@ -21,6 +21,6 @@ public class Test_001_LogIn extends DefaultTestCase {
 
         //Get cookie.
         Log.info("Get cookie");
-        Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver), "1");
+        Assert.assertEquals(Cookies.getCookieValue("wac", driver), "1");
     }
 }

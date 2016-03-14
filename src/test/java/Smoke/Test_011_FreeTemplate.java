@@ -18,7 +18,7 @@ public class Test_011_FreeTemplate extends DefaultTestCase {
         Log.info("Login");
         IndexPage indexPage = PageFactory.initElements(driver, IndexPage.class);
         indexPage.login(Constants.EMAIL_ADDRESS, Constants.PASSWORD);
-        Assert.assertEquals(Cookies.getValueOfCookieNamed("wac", driver),"1");
+        Assert.assertEquals(Cookies.getCookieValue("wac", driver),"1");
 
         //Clear shopping cart.
         Log.info("Clear shopping cart");
