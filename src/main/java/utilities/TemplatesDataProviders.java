@@ -1,4 +1,4 @@
-package TestAutomation.TemplateMonster.utility;
+package utilities;
 
 import TestAutomation.TemplateMonster.businessobjects.Offer;
 import TestAutomation.TemplateMonster.businessobjects.Template;

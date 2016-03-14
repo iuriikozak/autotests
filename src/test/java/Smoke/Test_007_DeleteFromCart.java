@@ -4,7 +4,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import service.*;
+import services.*;
 
 public class Test_007_DeleteFromCart extends Test_001_LogIn {
     @Test()

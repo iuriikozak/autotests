@@ -1,8 +1,8 @@
 package TestAutomation.TemplateMonster.businessobjects;
 
 import TestAutomation.TemplateMonster.utility.Log;
-import TestAutomation.TemplateMonster.utility.PropertyReader;
-import template_monster.utility.FileReaderService;
+import utilities.PropertyReader;
+import utilities.FileReaderService;
 
 import java.io.IOException;
 import java.util.ArrayList;

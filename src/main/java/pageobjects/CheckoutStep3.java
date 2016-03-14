@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import service.Log;
-import service.Waiters;
+import services.Log;
+import services.Waiters;
 
 import java.util.List;
 

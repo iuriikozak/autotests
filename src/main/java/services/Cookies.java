@@ -1,6 +1,7 @@
-package service;
+package services;
 
 import org.openqa.selenium.WebDriver;
+import utilities.ReportService;
 
 public class Cookies {
     public static String getCookieValue(String name, WebDriver driver) {

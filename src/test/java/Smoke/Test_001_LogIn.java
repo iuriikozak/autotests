@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import service.*;
+import services.*;
 
 public class Test_001_LogIn extends DefaultTestCase {
     @Test()

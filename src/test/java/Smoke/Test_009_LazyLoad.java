@@ -4,7 +4,7 @@ import Default.DefaultTestCase;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import service.*;
+import services.*;
 
 public class Test_009_LazyLoad extends DefaultTestCase {
     @Test()

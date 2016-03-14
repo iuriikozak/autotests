@@ -1,6 +1,6 @@
-package TestAutomation.TemplateMonster.utility;
+package utilities;
 
-import TestAutomation.TemplateMonster.businessobjects.User;
+import businessobjects.User;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;

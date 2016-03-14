@@ -1,4 +1,4 @@
-package template_monster.utility;
+package utilities;
 
 import TestAutomation.TemplateMonster.pageobjects.logintestsuite.HeaderPagePart;
 import TestAutomation.TemplateMonster.utility.Constants;

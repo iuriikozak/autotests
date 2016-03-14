@@ -1,4 +1,4 @@
-package template_monster.utility;
+package utilities;
 
 import TestAutomation.TemplateMonster.utility.Log;
 import org.openqa.selenium.*;

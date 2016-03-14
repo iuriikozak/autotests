@@ -1,7 +1,7 @@
 package TestAutomation.TemplateMonster.businessobjects;
 
 import TestAutomation.TemplateMonster.utility.PropertyReader;
-import template_monster.utility.EncodingService;
+import utilities.EncodingService;
 
 import java.io.IOException;
 import java.util.Objects;

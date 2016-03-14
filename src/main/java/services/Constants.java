@@ -1,4 +1,4 @@
-package service;
+package services;
 
 public class Constants {
     public static final String URL = "http://www.templatemonster.com/";
