@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 public class PressKeys {
     public static void pressEnter(WebElement element){
         element.sendKeys(Keys.ENTER);
-        Log.info("Press \"Enter\" key.");
+        Logs.info("Press \"Enter\" key.");
     }
 
     public static void copyAndCut(WebElement element){
@@ -28,6 +28,6 @@ public class PressKeys {
 
     public static void pressHome(WebElement element){
         element.sendKeys(Keys.HOME);
-        Log.info("Press \"Home\" key.");
+        Logs.info("Press \"Home\" key.");
     }
 }

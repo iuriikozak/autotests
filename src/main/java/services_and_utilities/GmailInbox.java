@@ -12,7 +12,7 @@ public class GmailInbox {
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
 
-        Session session = Session.getInstance(props, new javax.mail.Authenticator() {
+        Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
                 return new PasswordAuthentication(Constants.EMAIL_ADDRESS, Constants.PASSWORD);
             }

@@ -2,8 +2,8 @@ package services_and_utilities;
 
 import org.apache.log4j.Logger;
 
-public class Log {
-    private static Logger logger = Logger.getLogger(Log.class.getName());
+public class Logs {
+    private static Logger logger = Logger.getLogger(Logs.class.getName());
 
     public static void  info(String message){
         logger.info(message);

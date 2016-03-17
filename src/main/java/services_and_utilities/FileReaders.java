@@ -6,12 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FileReader {
+public class FileReaders {
     public static List<String> listReader(String fileLocation){
        BufferedReader in;
         List<String> myList = new ArrayList<>();
         try {
-            in = new BufferedReader(new java.io.FileReader("src/test/resources/properties/"+fileLocation));
+            in = new BufferedReader(new FileReader("src/test/resources/properties/"+fileLocation));
             String str;
             while ((str = in.readLine()) != null) {
                 myList.add(str);
@@ -19,7 +19,7 @@ public class FileReader {
             in.close();
         }
         catch (IOException e){
-            Log.error("Catch an exception " + e);
+            Logs.error("Catch an exception " + e);
         }
         return myList;
     }
@@ -27,7 +27,7 @@ public class FileReader {
     public static Map<String,String> getMap(String fileLocation){
         try {
             Map<String, String> map = new HashMap<>();
-            BufferedReader in = new BufferedReader( new java.io.FileReader("src/test/resources/properties/"+fileLocation));
+            BufferedReader in = new BufferedReader( new FileReader("src/test/resources/properties/"+fileLocation));
             String line;
             while ((line = in.readLine()) !=null){
                 String parts[] = line.split("=");
@@ -37,7 +37,7 @@ public class FileReader {
             return map;
         }
         catch (IOException e){
-            Log.error("Exception - " + e);
+            Logs.error("Exception - " + e);
             return null;
         }
     }

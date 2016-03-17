@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import services_and_utilities.Elements;
-import services_and_utilities.Log;
+import services_and_utilities.Logs;
 
 import java.util.List;
 
@@ -41,7 +41,7 @@ public class CheckoutStep3 {
     public void payBy(String paymentMethod){
         List<WebElement> list = driver.findElements(By.xpath(paymentMethodXpath));
         for (WebElement method : list){
-            Log.info("method " + list);
+            Logs.info("method " + list);
             if (method.getAttribute("title").contains(paymentMethod)){
                 method.click();
                 clickOnBuyNowButton();

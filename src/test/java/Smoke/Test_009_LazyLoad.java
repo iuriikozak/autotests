@@ -8,18 +8,18 @@ import services_and_utilities.*;
 
 public class Test_009_LazyLoad extends DefaultTestCase {
     @Test()
-    public void test_009() {
+    public void test() {
         //Navigate to index page.
-        Log.info("Navigate to index page");
-        Urls.getUrl("", driver);
+        Logs.info("Navigate to index page");
+        Urls.getURL("", driver);
 
         //Search template.
-        Log.info("Search template");
+        Logs.info("Search template");
         IndexPage indexPage = PageFactory.initElements(driver, IndexPage.class);
         indexPage.search("52112");
 
         //Check lazy load.
-        Log.info("Check lazy load");
+        Logs.info("Check lazy load");
         PreviewPage previewPage = PageFactory.initElements(driver, PreviewPage.class);
         previewPage.checkLazyLoad();
     }

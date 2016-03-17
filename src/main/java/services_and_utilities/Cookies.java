@@ -6,11 +6,11 @@ public class Cookies {
     public static String getCookieValue(String cookieName, WebDriver driver){
         if (driver.manage().getCookieNamed(cookieName)!=null){
             String value = driver.manage().getCookieNamed(cookieName).getValue();
-            Log.info("Cookie: \"" + cookieName + "\" has value - \"" + value + "\".");
+            Logs.info("Cookie: \"" + cookieName + "\" has value - \"" + value + "\".");
             return value;
         }
         else {
-            ReportService.assertTrue(false, "Cookie: \"" + cookieName + "\" was not found after timeout.");
+            Reports.assertTrue(false, "Cookie: \"" + cookieName + "\" was not found after timeout.");
             return null;
         }
     }
@@ -18,10 +18,10 @@ public class Cookies {
     public static void deleteCookie(String cookieName, WebDriver driver){
         if (driver.manage().getCookieNamed(cookieName)!=null){
             driver.manage().deleteCookieNamed(cookieName);
-            Log.info("Delete \""+cookieName+"\" cookie.");
+            Logs.info("Delete \""+cookieName+"\" cookie.");
         }
         else {
-            ReportService.assertTrue(false, "Couldn't find \""+cookieName+"\" cookie.");
+            Reports.assertTrue(false, "Couldn't find \""+cookieName+"\" cookie.");
         }
     }
 

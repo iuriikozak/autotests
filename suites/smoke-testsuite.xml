@@ -6,6 +6,11 @@
                 <class name="Smoke.Test_001_LogIn"></class>
             </classes>
         </test>
+        <test name="Test_001_LogOut">
+            <classes>
+                <class name="Smoke.Test_001_LogOut"></class>
+            </classes>
+        </test>
         <test name="Test_002_SearchTemplate">
             <classes>
                 <class name="Smoke.Test_002_SearchTemplate"></class>

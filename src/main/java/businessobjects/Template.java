@@ -1,8 +1,8 @@
 package businessobjects;
 
-import services_and_utilities.Log;
+import services_and_utilities.Logs;
 import services_and_utilities.PropertyReader;
-import services_and_utilities.FileReader;
+import services_and_utilities.FileReaders;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -35,7 +35,7 @@ public class Template {
         this.templateName = propertyReader.getPropertyValue(fileLocation, "templateName");
         this.templateID = propertyReader.getPropertyValue(fileLocation, "templateID");
         this.templateLicence = propertyReader.getPropertyValue(fileLocation, "templateLicence");
-        this.templateOffers = FileReader.listReader(fileOffer);
+        this.templateOffers = FileReaders.listReader(fileOffer);
 
     }
 
@@ -72,7 +72,7 @@ public class Template {
     }
 
     public List<String> getTemplateOffers() {
-        Log.info("businessobjects.Template offers - "+templateOffers);
+        Logs.info("businessobjects.Template offers - "+templateOffers);
         return templateOffers;
     }
 
@@ -99,7 +99,7 @@ public class Template {
             }
         }
         offersSum+=getTemplatePrice();
-        Log.info("Total price of template = "+offersSum);
+        Logs.info("Total price of template = "+offersSum);
         return offersSum;
     }
 

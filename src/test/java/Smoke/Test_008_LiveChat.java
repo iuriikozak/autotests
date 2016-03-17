@@ -9,24 +9,24 @@ import services_and_utilities.*;
 
 public class Test_008_LiveChat extends DefaultTestCase {
     @Test()
-    public void test_008() throws InterruptedException {
+    public void test() throws InterruptedException {
         //Navigate to index page.
-        Log.info("Navigate to index page");
-        Urls.getUrl("", driver);
+        Logs.info("Navigate to index page");
+        Urls.getURL("", driver);
 
         //Start chat.
-        Log.info("Start chat");
+        Logs.info("Start chat");
         IndexPage indexPage = PageFactory.initElements(driver, IndexPage.class);
         indexPage.startChat(Constants.FULL_NAME, RandomEmail.randomEmail());
 
         Thread.sleep(10000);//очень плохо
 
         //Check url.
-        Log.info("Check url");
+        Logs.info("Check url");
         Assert.assertEquals(driver.getCurrentUrl(), "http://chat.template-help.com/chat.jsp");
 
         //Check chat.
-        Log.info("Check chat");
+        Logs.info("Check chat");
         Assert.assertEquals(indexPage.liveChatHeader.getText(), "Welcome to Pre-sales Chat");
     }
 }

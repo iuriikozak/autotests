@@ -3,6 +3,7 @@ package pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import services_and_utilities.Elements;
 import services_and_utilities.Waiters;
 
 public class IndexPage {
@@ -52,63 +53,51 @@ public class IndexPage {
     public WebElement liveChatHeader;
 
     public void clickOnSignIn(){
-        Waiters.waitForClickAble(signInLink, driver);
-        signInLink.click();
+        Elements.clickOnElement(driver, signInLink, "signInLink");
     }
 
     public void clickOnSignOut(){
-        Waiters.waitForClickAble(signOutLink, driver);
-        signOutLink.click();
+        Elements.clickOnElement(driver, signOutLink, "signOutLink");
     }
 
     public void fillInEmail(String email){
-        Waiters.waitForClickAble(emailField, driver);
-        emailField.sendKeys(email);
+        Elements.sendKeys(emailField, "emailField", email);
     }
 
     public void fillInPassword(String pass){
-        Waiters.waitForClickAble(passwordField, driver);
-        passwordField.sendKeys(pass);
+        Elements.sendKeys(passwordField, "passwordField", pass);
     }
 
     public void clickOnSubmit(){
-        Waiters.waitForClickAble(signInButton, driver);
-        signInButton.click();
+        Elements.clickOnElement(driver, signInButton, "signInButton");
     }
 
     public void fillInSearchForm(String template){
-        Waiters.waitForClickAble(searchForm, driver);
-        searchForm.sendKeys(template);
+        Elements.sendKeys(searchForm, "searchForm", template);
     }
 
     public void clickOnSearchFormSubmit(){
-        Waiters.waitForClickAble(searchFormSubmit, driver);
-        searchFormSubmit.click();
+        Elements.clickOnElement(driver, searchFormSubmit, "searchFormSubmit");
     }
 
     public void clickOnShoppingCart(){
-        Waiters.waitForClickAble(shoppingCart, driver);
-        shoppingCart.click();
+        Elements.clickOnElement(driver, shoppingCart, "shoppingCart");
     }
 
     public void clickOnLiveChat(){
-        Waiters.waitForClickAble(liveChat, driver);
-        liveChat.click();
+        Elements.clickOnElement(driver, liveChat, "liveChat");
     }
 
     public void fillInLiveChatName(String name){
-        Waiters.waitForClickAble(liveChatName, driver);
-        liveChatName.sendKeys(name);
+        Elements.sendKeys(liveChatName, "liveChatName", name);
     }
 
     public void fillInLiveChatEmail(String email){
-        Waiters.waitForClickAble(liveChatEmail, driver);
-        liveChatEmail.sendKeys(email);
+        Elements.clickOnElement(driver, liveChatEmail, "liveChatEmail");
     }
 
     public void clickOnLiveChatStart(){
-        Waiters.waitForClickAble(liveChatStart, driver);
-        liveChatStart.click();
+        Elements.clickOnElement(driver, liveChatStart, "liveChatStart");
     }
 
     public void login(String email, String pass){

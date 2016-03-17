@@ -7,7 +7,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import services_and_utilities.Log;
+import services_and_utilities.Logs;
 
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
@@ -17,12 +17,12 @@ public class DefaultTestCase {
 
     @BeforeSuite
     public void startSuite(){
-        Log.info("Start suite");
+        Logs.info("Start suite");
     }
 
     @BeforeTest
     public void startTest() throws MalformedURLException {
-        Log.info("Start test");
+        Logs.info("Start test");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 
         //URL hostURL = new URL("http://192.168.51.80:4444/wd/hub");
@@ -38,11 +38,11 @@ public class DefaultTestCase {
     @AfterTest
     public void afterTest(){
         driver.quit();
-        Log.info("Stop test");
+        Logs.info("Stop test");
     }
 
     @AfterSuite
     public void afterSuite(){
-        Log.info("Stop suite");
+        Logs.info("Stop suite");
     }
 }
