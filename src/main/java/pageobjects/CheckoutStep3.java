@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import services.Log;
-import services.Waiters;
+import services_and_utilities.Elements;
+import services_and_utilities.Log;
 
 import java.util.List;
 
@@ -29,19 +29,16 @@ public class CheckoutStep3 {
     public WebElement buyNowButton;
 
     public void clickOnCompleteOrderButton(){
-        Waiters.waitForClickAble(completeOrder, driver);
-        completeOrder.click();
+        Elements.clickOnElement(driver, completeOrder, "completeOrder");
     }
 
     public void clickOnBuyNowButton(){
-        Waiters.waitForClickAble(buyNowButton, driver);
-        buyNowButton.click();
+        Elements.clickOnElement(driver, buyNowButton, "buyNowButton");
     }
 
     String paymentMethodXpath = ".//*[@class='row js-radio-collapse collapsed']/div[@class='method-col2']//img";
 
     public void payBy(String paymentMethod){
-        Waiters.waitForElement(paymentMethodXpath, driver);
         List<WebElement> list = driver.findElements(By.xpath(paymentMethodXpath));
         for (WebElement method : list){
             Log.info("method " + list);

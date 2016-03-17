@@ -3,7 +3,6 @@ package pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import services.Waiters;
 
 public class CheckoutStep1 {
     private WebDriver driver;
@@ -34,17 +33,14 @@ public class CheckoutStep1 {
     public WebElement emailErrorMessage;
 
     public void clickOnIAmANewCustomer(){
-        Waiters.waitForClickAble(iAmANewCustomer, driver);//selected
         iAmANewCustomer.click();
     }
 
     public void clickOnContinueAsAGuest(){
-        Waiters.waitForClickAble(continueAsAGuest, driver);
         continueAsAGuest.click();
     }
 
     public void clickOnIAmAReturningCustomer(){
-        Waiters.waitForClickAble(iAmAReturningCustomer, driver);
         iAmAReturningCustomer.click();
     }
 
@@ -57,12 +53,10 @@ public class CheckoutStep1 {
     }
 
     public void clickInPasswordField(){
-        Waiters.waitForClickAble(passwordField, driver);
         passwordField.click();
     }
 
     public void clickOnSignInButton(){
-        Waiters.waitForClickAble(signInButton, driver);
         signInButton.click();
     }
 

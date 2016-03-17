@@ -7,7 +7,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import services.Log;
+import services_and_utilities.Log;
 
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;

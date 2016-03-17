@@ -2,26 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0397de-2a53-4c45-be7d-7f54ae154fdb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/Cookies.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/DataProviders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/GmailInbox.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/Log.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/PropertyReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/RandomEmail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/Urls.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/Waiters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/DataProviders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/EncodingService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/FileReaderService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/ManageUrlService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/ObjectService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/PressKeysService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/ReportService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/TemplatesDataProviders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/WaiterService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/template_monster/utility/WebElementService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/Cookies.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/DataProviders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/GmailInbox.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/Log.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/PropertyReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/RandomEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/Urls.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/services/Waiters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/DataProviders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/EncodingService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/FileReaderService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/ManageUrlService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/ObjectService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/PressKeysService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/ReportService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/TemplatesDataProviders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/WaiterService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utilities/WebElementService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/CheckoutStep1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/CheckoutStep2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/CheckoutStep3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/IndexPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/PreviewPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pageobjects/ShoppingCart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Cookies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/DataProviders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/GmailInbox$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/GmailInbox.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Log.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/RandomEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Urls.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Waiters$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Waiters.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Default/DefaultTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/Default/DefaultTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_001_LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_001_LogIn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_002_LogOut.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_002_LogOut.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_002_SearchTemplate.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_002_SearchTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_003_BuyPayPal.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_003_BuyPayPal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_004_PayByCard.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_004_PayByCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_005_FreeTemplate.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_005_FreeTemplate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_006_MergeCart.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_006_MergeCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_007_DeleteFromCart.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_007_DeleteFromCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_008_LiveChat.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_008_LiveChat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_009_LazyLoad.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_009_LazyLoad.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_010_InvalidEmail.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_010_InvalidEmail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Smoke/Test_011_FreeTemplate.class" afterPath="$PROJECT_DIR$/target/test-classes/Smoke/Test_011_FreeTemplate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/businessobjects/Offer.java" afterPath="$PROJECT_DIR$/src/main/java/businessobjects/Offer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/businessobjects/Template.java" afterPath="$PROJECT_DIR$/src/main/java/businessobjects/Template.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/businessobjects/User.java" afterPath="$PROJECT_DIR$/src/main/java/businessobjects/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java" />
@@ -43,6 +73,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Smoke/Test_009_LazyLoad.java" afterPath="$PROJECT_DIR$/src/test/java/Smoke/Test_009_LazyLoad.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java" afterPath="$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Smoke/Test_011_FreeTemplate.java" afterPath="$PROJECT_DIR$/src/test/java/Smoke/Test_011_FreeTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/bonusUser.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/bonusUser.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/guest.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/guest.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/guestContactPhone.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/guestContactPhone.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginIncorrectEmail.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginIncorrectEmail.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginIncorrectPassword.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginIncorrectPassword.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoEmail.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoEmail.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoPassword.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoPassword.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoPasswordEmail.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/negativeLoginNoPasswordEmail.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianExclamationUser.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianExclamationUser.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianGuest.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianGuest.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianUser.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/ukrainianUser.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/unconfirmedUser.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/unconfirmedUser.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/user.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/user.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userCyrillic.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userCyrillic.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userEditBillingInfo.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userEditBillingInfo.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userMail.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userMail.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSecondLevelDomain.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSecondLevelDomain.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSpacesInPassword.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSpacesInPassword.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSpecialCharsInPassword.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/userWithSpecialCharsInPassword.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/user/without_confirm_user.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/user/without_confirm_user.properties" />
     </list>
     <ignored path="tm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,57 +140,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_007_ShoppingCart2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_006_ShoppingCart1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/DataProviders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/UserDataProviders.java" />
-        <option value="$PROJECT_DIR$/suites/smoke-testsuite.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/GMailAuthenticator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/JavaMail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/RandomEmail.java" />
-        <option value="$PROJECT_DIR$/suites/smoke-testsuite-few.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/MainData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/StartAfter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/MainURLs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/PreviewPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/UserData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DefaultTestCase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/GmailInbox.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/properties/invalidEmail" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_001_Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Url.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_002_SearchTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_006_MergeCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_008_LiveChat.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_009_LazyLoad.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_011_FreeTemplate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Default/DefaultTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_003_BuyPayPal.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_004_PayByCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_005_FreeTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_007_DeleteFromCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DataProviders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep3.java" />
         <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_001_LogOut.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_001_LogIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/IndexPage.java" />
         <option value="$PROJECT_DIR$/suites/smoke-testsuite-new.xml" />
         <option value="$PROJECT_DIR$/src/main/java/service/Waiters.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_002_LogOut.java" />
         <option value="$PROJECT_DIR$/src/main/java/template_monster/utility/PropertyReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/template_monster/utility/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/template_monster/utility/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Cookies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/businessobjects/Template.java" />
         <option value="$PROJECT_DIR$/src/main/java/utility/DataProviders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Offer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Template.java" />
+        <option value="$PROJECT_DIR$/src/main/java/businessobjects/Offer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/businessobjects/Template.java" />
+        <option value="$PROJECT_DIR$/src/main/java/businessobjects/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/Cookies.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/ObjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/PressKeysService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/ReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/ManageUrlService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/FileReaderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/EncodingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/TemplatesDataProviders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/Waiters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/WaiterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/WebElementService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_001_LogIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Smoke/Test_002_LogOut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/ManageUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/DataProviders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services_and_utilities/Elements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep2.java" />
       </list>
     </option>
   </component>
@@ -201,8 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utilities" />
+              <option name="myItemId" value="services_and_utilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,29 +405,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="pageobjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,7 +437,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,22 +452,22 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/suites" />
-      <recent name="$PROJECT_DIR$/src/main/java/service" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Smoke" />
       <recent name="service" />
       <recent name="pageobjects" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/suites" />
+      <recent name="$PROJECT_DIR$/src/main/java/service" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./home/yuriyk/IdeaProjects/autotests/suites/smoke-testsuite-new.xml">
@@ -877,12 +905,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_003_BuyPayPal_test_003 - 2016.02.25 at 15h 12m 34s.xml">
-      <configuration name="Test_003_BuyPayPal.test_003" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_003_BuyPayPal_test_003 - 2016.02.25 at 15h 13m 40s.xml">
-      <configuration name="Test_003_BuyPayPal.test_003" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Test_003_BuyPayPal_test_003 - 2016.02.25 at 15h 17m 26s.xml">
       <configuration name="Test_003_BuyPayPal.test_003" configurationId="TestNG" />
     </history-entry>
@@ -904,6 +926,12 @@
     <history-entry file="_home_yuriyk_IdeaProjects_autotests_suites_smoke-testsuite-new_xml - 2016.02.25 at 17h 49m 13s.xml">
       <configuration name="/home/yuriyk/IdeaProjects/autotests/suites/smoke-testsuite-new.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_yuriyk_IdeaProjects_autotests_suites_smoke-testsuite-new_xml - 2016.03.17 at 11h 28m 59s.xml">
+      <configuration name="/home/yuriyk/IdeaProjects/autotests/suites/smoke-testsuite-new.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_yuriyk_IdeaProjects_autotests_suites_smoke-testsuite-new_xml - 2016.03.17 at 11h 40m 26s.xml">
+      <configuration name="/home/yuriyk/IdeaProjects/autotests/suites/smoke-testsuite-new.xml" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="_home_yuriyk_IdeaProjects_autotests_suites_smoke-testsuite-test-011_xml - 2016.02.25 at 15h 48m 14s.xml">
       <configuration name="/home/yuriyk/IdeaProjects/autotests/suites/smoke-testsuite-test-011.xml" configurationId="TestNG" />
     </history-entry>
@@ -914,28 +942,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14012042" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34871244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19102353" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19102353" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34871244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -982,7 +1010,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -991,17 +1019,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autotests.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,21 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33259425">
           <caret line="437" column="11" selection-start-line="437" selection-start-column="11" selection-end-line="437" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1055,13 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12478336">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_009_LazyLoad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12478336">
@@ -1076,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_006_MergeCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.079822615">
@@ -1090,24 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/InterruptedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275563">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1154,59 +1139,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Waiters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12478336">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_002_LogOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Urls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/RandomEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039911307">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/GmailInbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Default/DefaultTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.079822615">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/DataProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_001_LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1158,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/user/bonusUser.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/user/validEmails.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/businessobjects/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2596#2597#0" expanded="true" />
+            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#3227#3228#0" expanded="true" />
+            <element signature="e#3277#3278#0" expanded="true" />
+            <element signature="e#3317#3318#0" expanded="true" />
+            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3457#3458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/businessobjects/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11973392">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2594235">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_010_InvalidEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079822615">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/GmailInbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09977827">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/RandomEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.039911307">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13968958">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2594235">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.039911307">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Urls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079822615">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Cookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079822615">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_002_LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Smoke/Test_001_LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/ManageUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/businessobjects/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15964523">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,155 +1357,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/user/bonusUser.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/DataProviders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/user/validEmails.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039911307">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15964523">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079822615">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WaiterService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/PressKeys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09977827">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/WebElementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.487805">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/PressKeysService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13968958">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ManageUrlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.57871395">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27937916">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/PropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/FileReaderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13968958">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/businessobjects/Offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13968958">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/EncodingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="32" />
-          <folding />
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#continueAsAGuestUser#0;class#CheckoutStep1#0" expanded="false" />
+            <element signature="method#loginAsAReturningUser#0;class#CheckoutStep1#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/TemplatesDataProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079822615">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Cookies.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/services_and_utilities/Waiters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/businessobjects/Template.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05986696">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#payBy#0;class#CheckoutStep3#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/DataProviders.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/CheckoutStep2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#fillInPhoneNumberField#0;class#CheckoutStep2#0" expanded="false" />
+            <element signature="method#fillInFreeInfoFullNameField#0;class#CheckoutStep2#0" expanded="false" />
+            <element signature="method#fillInFreeInfoEmailField#0;class#CheckoutStep2#0" expanded="false" />
+            <element signature="method#fillInFreeInfoPhoneNumberField#0;class#CheckoutStep2#0" expanded="false" />
+            <element signature="method#register#0;class#CheckoutStep2#0" expanded="false" />
+            <element signature="method#freeInfo#0;class#CheckoutStep2#0" expanded="false" />
           </folding>
         </state>
       </provider>

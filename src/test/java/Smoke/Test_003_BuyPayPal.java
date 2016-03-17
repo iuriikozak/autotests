@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import services.*;
+import services_and_utilities.*;
 
 public class Test_003_BuyPayPal extends DefaultTestCase {
     @Test()

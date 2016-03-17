@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.IndexPage;
-import services.*;
+import services_and_utilities.*;
 
 public class Test_002_LogOut extends DefaultTestCase {
     @Test()
@@ -21,6 +21,7 @@ public class Test_002_LogOut extends DefaultTestCase {
 
         //Get cookie.
         Log.info("Get cookie");
+        Waiters.waitForCookie("wac", driver);
         Assert.assertEquals(Cookies.getCookieValue("wac", driver), "1");
 
         //LogOut.

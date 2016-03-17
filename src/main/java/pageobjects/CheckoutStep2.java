@@ -3,7 +3,7 @@ package pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import services.Waiters;
+import services_and_utilities.Elements;
 
 public class CheckoutStep2 {
     private WebDriver driver;
@@ -46,58 +46,47 @@ public class CheckoutStep2 {
     public WebElement downloadButton;
 
     public void fillInFullNameField(String name){
-        Waiters.waitForClickAble(fullName, driver);
-        fullName.sendKeys(name);
+        Elements.sendKeys(fullName, "fullName", name);
     }
 
     public void fillInEmailField(String email){
-        Waiters.waitForClickAble(emailAddress, driver);
-        emailAddress.sendKeys(email);
+        Elements.sendKeys(emailAddress, "emailAddress", email);
     }
 
     public void fillInAddressField(String address){
-        Waiters.waitForClickAble(addressField, driver);
-        addressField.sendKeys(address);
+        Elements.sendKeys(addressField, "addressField", address);
     }
 
     public void fillInCityField(String city){
-        Waiters.waitForClickAble(cityField, driver);
-        cityField.sendKeys(city);
+        Elements.sendKeys(cityField, "cityField", city);
     }
 
     public void fillInPostalCodeField(String code){
-        Waiters.waitForClickAble(postalCodeField, driver);
-        postalCodeField.sendKeys(code);
+        Elements.sendKeys(postalCodeField, "postalCodeField", code);
     }
 
     public void fillInPhoneNumberField(String number){
-        Waiters.waitForClickAble(phoneNumberField, driver);
-        phoneNumberField.sendKeys(number);
+        Elements.sendKeys(phoneNumberField, "phoneNumberField", number);
     }
 
     public void clickOnContinueButton(){
-        Waiters.waitForClickAble(continueButton, driver);
-        continueButton.click();
+        Elements.clickOnElement(driver, continueButton, "continueButton");
     }
 
     public void fillInFreeInfoFullNameField(String name){
-        Waiters.waitForClickAble(freeInfoFullName, driver);
-        freeInfoFullName.sendKeys(name);
+        Elements.sendKeys(freeInfoFullName, "freeInfoFullName", name);
     }
 
     public void fillInFreeInfoEmailField(String email){
-        Waiters.waitForClickAble(freeInfoEmailAddress, driver);
-        freeInfoEmailAddress.sendKeys(email);
+        Elements.sendKeys(freeInfoEmailAddress, "freeInfoEmailAddress", email);
     }
 
     public void fillInFreeInfoPhoneNumberField(String number){
-        Waiters.waitForClickAble(freeInfoPhoneNumberField, driver);
-        freeInfoPhoneNumberField.sendKeys(number);
+        Elements.sendKeys(freeInfoPhoneNumberField, "freeInfoPhoneNumberField", number);
     }
 
     public void clickOnDownloadButton(){
-        Waiters.waitForClickAble(downloadButton, driver);
-        downloadButton.click();
+        Elements.clickOnElement(driver, downloadButton, "downloadButton");
     }
 
     public void register(String name, String email, String address, String city, String code, String number) {

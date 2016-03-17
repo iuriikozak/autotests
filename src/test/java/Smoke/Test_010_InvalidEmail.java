@@ -5,10 +5,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import services.*;
+import services_and_utilities.*;
 
 public class Test_010_InvalidEmail extends DefaultTestCase {
-    @Test(dataProvider = "InvalidEmail", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "InvalidEmail2", dataProviderClass = DataProviders.class)
     public void test_010(String email) {
         //Navigate to index page.
         Log.info("Navigate to index page");

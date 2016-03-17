@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import services.Waiters;
+import services_and_utilities.Elements;
 
 public class PreviewPage {
     private WebDriver driver;
@@ -34,23 +34,19 @@ public class PreviewPage {
     public WebElement downloadTemplate;
 
     public void clickOnAddToCart(){
-        Waiters.waitForClickAble(addToCart, driver);
-        addToCart.click();
+        Elements.clickOnElement(driver, addToCart, "addToCart");
     }
 
     public void clickOnCheckoutNow(){
-        Waiters.waitForClickAble(checkoutNow, driver);
-        checkoutNow.click();
+        Elements.clickOnElement(driver, checkoutNow, "checkoutNow");
     }
 
     public void clickOnTweet(){
-        Waiters.waitForClickAble(tweetButton, driver);
-        tweetButton.click();
+        Elements.clickOnElement(driver, tweetButton, "tweetButton");
     }
 
     public void clickOnDownloadTemplate(){
-        Waiters.waitForClickAble(downloadTemplate, driver);
-        downloadTemplate.click();
+        Elements.clickOnElement(driver, downloadTemplate, "downloadTemplate");
     }
 
     public void addToCart() {

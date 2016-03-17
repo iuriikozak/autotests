@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobjects.*;
-import services.*;
+import services_and_utilities.*;
 
 public class Test_011_FreeTemplate extends DefaultTestCase {
     @Test()
@@ -44,6 +44,6 @@ public class Test_011_FreeTemplate extends DefaultTestCase {
 
         //Check letter.
         Log.info("Check letter");
-        Assert.assertEquals(GmailInbox.check(), "Your Free Template from TemplateMonster");
+        Assert.assertEquals(GmailInbox.check(), "Your Free businessobjects.Template from TemplateMonster");
     }
 }

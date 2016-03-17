@@ -1,7 +1,7 @@
-package TestAutomation.TemplateMonster.businessobjects;
+package businessobjects;
 
-import TestAutomation.TemplateMonster.utility.PropertyReader;
-import utilities.EncodingService;
+import services_and_utilities.PropertyReader;
+import services_and_utilities.Encoding;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -11,7 +11,6 @@ public class User {
 	private String userName = null;
 	private String password = null;
 	private String errorMessage = null;
-
     private String fullName = null;
     private String email = null;
     private String formAddress = null;
@@ -65,15 +64,15 @@ public class User {
 	}
 
 	public String getUserName() {
-        return  EncodingService.convertUTF(userName);
-       	}
+        return  Encoding.convertUTF(userName);
+    }
 	
 	public void setLogin(String login) {
 		this.userName = login;
 	}
 	
 	public String getPassword() {
-        return EncodingService.convertUTF(password);
+        return Encoding.convertUTF(password);
 	}
 	
 	public void setPassword(String password) {
@@ -81,19 +80,19 @@ public class User {
 	}
 
     public String getFullName() {
-        return  EncodingService.convertUTF(fullName);
+        return  Encoding.convertUTF(fullName);
     }
 
     public String getEmail() {
-        return EncodingService.convertUTF(email);
+        return Encoding.convertUTF(email);
     }
 
     public String getFormAddress() {
-        return  EncodingService.convertUTF(formAddress);
+        return  Encoding.convertUTF(formAddress);
     }
 
     public String getCity() {
-        return EncodingService.convertUTF(city);
+        return Encoding.convertUTF(city);
     }
 
     public String getCountry() {
@@ -105,7 +104,7 @@ public class User {
     }
 
     public String getPost() {
-        return EncodingService.convertUTF(post);
+        return Encoding.convertUTF(post);
     }
 
     public String getPhone() {
@@ -146,13 +145,4 @@ public class User {
         int index = getFullName().indexOf(" ");
         return getFullName().substring(++index);
     }
-
-
-
-
-
-
-
-
-
 }

@@ -1,12 +1,9 @@
-package TestAutomation.TemplateMonster.businessobjects;
+package businessobjects;
 
-import TestAutomation.TemplateMonster.utility.PropertyReader;
+import services_and_utilities.PropertyReader;
 
 import java.io.IOException;
 
-/**
- * Created by victorp on 25.03.15.
- */
 public class Offer {
 
     private String offerName = null;
@@ -15,11 +12,8 @@ public class Offer {
 
 
 	public Offer(String fileLocation) throws IOException {
-		//super();
-
 		PropertyReader propertyReader = new PropertyReader();
 		this.offerName = propertyReader.getPropertyValue(fileLocation, "offerName");
-
 	}
 
     public Integer getOfferPrice() {
@@ -36,9 +30,6 @@ public class Offer {
 
     public void setOfferPrice(Integer offerPrice) {
         this.offerPrice = offerPrice;
-    }
-
-    public Offer() {
     }
 
     public Offer(String offerName, Integer offerPrice, Boolean priceDiscount) {

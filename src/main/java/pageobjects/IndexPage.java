@@ -3,7 +3,7 @@ package pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import services.Waiters;
+import services_and_utilities.Waiters;
 
 public class IndexPage {
     private WebDriver driver;
@@ -77,7 +77,7 @@ public class IndexPage {
     }
 
     public void fillInSearchForm(String template){
-        Waiters.waitForClickAble(searchForm, driver);//линее
+        Waiters.waitForClickAble(searchForm, driver);
         searchForm.sendKeys(template);
     }
 

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import services.Waiters;
+import services_and_utilities.Elements;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,12 +24,10 @@ public class ShoppingCart {
     public WebElement checkoutNow;
 
     public void clickOnCheckoutNow(){
-        Waiters.waitForClickAble(checkoutNow, driver);
-        checkoutNow.click();
+        Elements.clickOnElement(driver, checkoutNow, "checkoutNow");
     }
 
     public int countProducts(){
-        Waiters.waitForText(cartCount, driver);
         return Integer.parseInt(cartCount.getText());
     }
 
@@ -55,13 +53,13 @@ public class ShoppingCart {
     }
 
     public int takeSubtotal(){
-        Waiters.waitForElement(".//*[@class='price  js-price']", driver);
+        //Waiters.waitForElement(".//*[@class='price  js-price']", driver);
         int subtotal = Integer.valueOf(driver.findElement(By.xpath(".//*[@class='price  js-price']")).getAttribute("data-price"));
         return subtotal;
     }
 
     public int takeOrderTotal(){
-        Waiters.waitForElement(".//*[@class='template-price js-total-price']", driver);
+        //Waiters.waitForElement(".//*[@class='template-price js-total-price']", driver);
         int orderTotal = Integer.valueOf(driver.findElement(By.xpath(".//*[@class='template-price js-total-price']")).getAttribute("data-price"));
         return orderTotal;
     }

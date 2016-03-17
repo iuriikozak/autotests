@@ -1,16 +1,13 @@
-package TestAutomation.TemplateMonster.businessobjects;
+package businessobjects;
 
-import TestAutomation.TemplateMonster.utility.Log;
-import utilities.PropertyReader;
-import utilities.FileReaderService;
+import services_and_utilities.Log;
+import services_and_utilities.PropertyReader;
+import services_and_utilities.FileReader;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by victorp on 25.03.15.
- */
 public class Template {
 
     private String templateName = null;
@@ -38,11 +35,8 @@ public class Template {
         this.templateName = propertyReader.getPropertyValue(fileLocation, "templateName");
         this.templateID = propertyReader.getPropertyValue(fileLocation, "templateID");
         this.templateLicence = propertyReader.getPropertyValue(fileLocation, "templateLicence");
-        this.templateOffers = FileReaderService.listReader(fileOffer);
+        this.templateOffers = FileReader.listReader(fileOffer);
 
-    }
-
-    public Template() {
     }
 
     public String getTemplateName() {
@@ -78,7 +72,7 @@ public class Template {
     }
 
     public List<String> getTemplateOffers() {
-        Log.info("Template offers - "+templateOffers);
+        Log.info("businessobjects.Template offers - "+templateOffers);
         return templateOffers;
     }
 
