@@ -20,13 +20,13 @@ public class CheckoutStep1 {
     @FindBy(id = "returning-customer-radio")
     public WebElement iAmAReturningCustomer;
 
-    @FindBy(id = "checkout-signin-form-email")
+    @FindBy(id = "signin-form-email")
     public WebElement emailField;
 
-    @FindBy(id = "checkout-signin-form-password")
+    @FindBy(id = "signin-form-password")
     public WebElement passwordField;
 
-    @FindBy(id = "checkout-signin-form-submit")
+    @FindBy(id = "signin-form-submit")
     public WebElement signInButton;
 
     @FindBy(xpath = ".//*[@class='popover-content']")

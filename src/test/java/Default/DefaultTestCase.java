@@ -29,8 +29,8 @@ public class DefaultTestCase {
         //driver = new RemoteWebDriver(hostURL, capabilities);
         driver = new FirefoxDriver(capabilities);
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 
         driver.manage().window().maximize();
     }

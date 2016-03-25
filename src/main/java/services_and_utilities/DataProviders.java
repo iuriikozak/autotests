@@ -19,7 +19,7 @@ public class DataProviders {
 	
 	@DataProvider (name = "InvalidEmail")
     public static Object[][] InvalidEmail() throws IOException {
-        return new Object[][] { { new User("properties/user/negativeLoginIncorrectEmail.properties") }};
+        return new Object[][] { { new User("properties/negativeLoginIncorrectEmail.properties") }};
     }
 
     @DataProvider (name = "InvalidPassword")
