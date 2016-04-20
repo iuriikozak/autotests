@@ -31,8 +31,16 @@
         <processorPath useClasspath="true" />
         <module name="test" />
       </profile>
+      <profile default="false" name="Annotation profile for autotests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="autotests" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="autotests" target="1.8" />
       <module name="test" target="1.8" />
       <module name="tm" target="1.8" />
     </bytecodeTargetLevel>
