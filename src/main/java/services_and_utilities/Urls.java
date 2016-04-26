@@ -34,7 +34,7 @@ public class Urls {
         }
         else
         {
-            //Logs.info("This is NOT an expected page");
+            Logs.info("This is NOT an expected page");
             return false;
         }
     }

@@ -28,7 +28,7 @@ public class Test_010_InvalidEmail extends DefaultTestCase {
         //Login.
         Logs.info("Login");
         CheckoutStep1 checkoutStep1 = PageFactory.initElements(driver, CheckoutStep1.class);
-        checkoutStep1.loginAsAReturningUser(user.getUserName(), Constants.PASSWORD);
+        checkoutStep1.loginAsAReturningUser(user.getUserName(), user.getPassword());
 
         //Click in password field.
         Logs.info("Click in password field");

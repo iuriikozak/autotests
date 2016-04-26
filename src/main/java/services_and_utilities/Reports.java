@@ -27,7 +27,7 @@ public class Reports {
 		Logs.warn("Screenshot name: \"" + screenshotName + "\".");
 	}
 	
-	public static void assertTrue(Boolean condition, String errorMessage ) {
+	public static void assertTrue(Boolean condition, String errorMessage) {
 		if (condition == false){
 			Logs.info("");
 			Logs.error("ACTUAL RESULT:");
@@ -36,7 +36,7 @@ public class Reports {
 		Assert.assertTrue(condition);
 	}
 	
-	public static void assertFalse(Boolean condition, String errorMessage ) {
+	public static void assertFalse(Boolean condition, String errorMessage) {
 		if (condition == true){
 			Logs.info("");
 			Logs.error("ACTUAL RESULT:");

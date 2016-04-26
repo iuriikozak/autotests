@@ -45,4 +45,5 @@ public class Offer {
     public void setPriceDiscount(Boolean priceDiscount) {
         this.priceDiscount = priceDiscount;
     }
+
 }

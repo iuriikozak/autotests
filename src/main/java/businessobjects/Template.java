@@ -114,4 +114,5 @@ public class Template {
     public void setPriceDicount(Boolean priceDicount) {
         this.priceDicount = priceDicount;
     }
+
 }

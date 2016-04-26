@@ -26,7 +26,7 @@ public class Test_002_SearchTemplate extends DefaultTestCase {
 
         //Check search form.
         Logs.info("Check search form");
-        Assert.assertTrue(indexPage.searchForm.getText().isEmpty());//во всех ассертах нужно писать месседж при ошибке
+        Assert.assertTrue(indexPage.searchForm.getText().isEmpty());
 
         //Check is element present.
         Logs.info("Check is element present");
